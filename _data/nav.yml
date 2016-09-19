@@ -1,0 +1,7 @@
+main:
+    - { url: '/map', text: 'Map' }
+    - { url: '/images', text: 'Images' }
+    - { url: '/artist', text: 'Artist' }
+    - { url: '/about', text: 'About' }
+    - { url: '/getinvolved', text: 'Get Involved' }
+
