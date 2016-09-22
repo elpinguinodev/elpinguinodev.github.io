@@ -1,7 +1,7 @@
 ---
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 
  <title>{{ site.data.global.title | xml_escape }}</title>
  <link href="{{ site.data.global.url }}/atom.xml" rel="self"/>
