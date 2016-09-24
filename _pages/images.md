@@ -4,9 +4,8 @@ title: Images
 permalink: /images/
 ---
 
-I want the images to look like [Unite Gallery](https://unitegallery.net/).
-		<html>
-	            <head>
+				<html>
+	            		<head>
 				...
 				<!-- Include Unite Gallery core files -->
 				<script src='unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
@@ -35,4 +34,4 @@ I want the images to look like [Unite Gallery](https://unitegallery.net/).
 				</script>
 				
 				</body>
-			</html>
+				</html>
