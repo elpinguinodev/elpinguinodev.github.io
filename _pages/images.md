@@ -8,11 +8,11 @@ permalink: /images/
 		...
 		<!-- Include Unite Gallery core files -->
 		<script src='unitegallery/js/unitegallery.min.js' type='text/javascript'  ></script>
+		<script src='unitegallery/themes/tiles/ug-theme-tiles.js' type='text/javascript'></script>
 		<link  href='unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
 				
 		<!-- include Unite Gallery Theme Files -->
 				
-		<script src='unitegallery/themes/tiles/ug-theme-tiles.js' type='text/javascript'></script>
 		...
 	</head>
 								
