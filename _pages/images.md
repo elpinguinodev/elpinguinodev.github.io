@@ -33,4 +33,4 @@ permalink: /images/
 		</script>
 				
 	</body>
-				
+</html>		
