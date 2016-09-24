@@ -16,15 +16,15 @@ I want the images to look like [Unite Gallery](https://unitegallery.net/).
     </head>
     <body>  
         <div class="galleria">
-            <img src="/images/rictrain1.jpg">
-            <img src="/images/rictrain2.jpg">
-            <img src="/images/rictrain3.jpg">
-            <img src="/images/rictrain4.jpg">
-            <img src="/images/rictrain5.jpg">
-            <img src="/images/rictrain6.jpg">
-            <img src="/images/rictrain7.jpg">
-            <img src="/images/rictrain8.jpg">
-            <img src="/images/rictrain9.jpg">
+            <img src="/images/Rictrain1.jpg">
+            <img src="/images/Rictrain2.jpg">
+            <img src="/images/Rictrain3.jpg">
+            <img src="/images/Rictrain4.jpg">
+            <img src="/images/Rictrain5.jpg">
+            <img src="/images/Rictrain6.jpg">
+            <img src="/images/Rictrain7.jpg">
+            <img src="/images/Rictrain8.jpg">
+            <img src="/images/Rictrain9.jpg">
         </div>
         <script>
         (function() { 
