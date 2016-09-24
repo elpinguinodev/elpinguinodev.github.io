@@ -3,7 +3,7 @@
 	"version": "1.7.28",
 	"description": "Responsive jQuery Image and Video Gallery Plugin",
 	"license": "MIT",
-	"homepage": "https://elpinguinodev.github.io/unitegallery",
+	"homepage": "https://elpinguinodev.github.io",
 	"main": [
 		"dist/js/unitegallery.js"
 	],
