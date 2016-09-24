@@ -16,9 +16,9 @@ I want the images to look like [Unite Gallery](https://unitegallery.net/).
     </head>
     <body>  
         <div class="galleria">
-            <img src="photo1.jpg">
-            <img src="photo2.jpg">
-            <img src="photo3.jpg">
+            <img src="images/rictrain1.jpg">
+            <img src="images/rictrain2.jpg">
+            <img src="images/rictrain3.jpg">
         </div>
         <script>
         (function() { 
