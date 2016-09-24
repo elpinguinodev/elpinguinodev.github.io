@@ -10,9 +10,7 @@ I want the images to look like [Unite Gallery](https://unitegallery.net/).
     <head>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
       <script src="galleria/galleria-1.4.5.min.js"></script>
-      <style> 
-        .galleria{ width: 700px; height: 400px; background: #000 } 
-      </style>
+      <link rel="stylesheet" href="styles.css">
     </head>
     <body>  
         <div class="galleria">
