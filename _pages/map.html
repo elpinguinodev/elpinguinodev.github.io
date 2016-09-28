@@ -108,7 +108,7 @@ This is where the map goes. I want to make a map with layers that can be turned 
 			loadCSS("//js.arcgis.com/3.18/dijit/themes/claro/claro.css", true);			
 
 			if( isProduction ) {
-				loadCSS("app/maptour-min.css");
+				loadCSS("/../css/maptour-min.css");
 			}
 			else {
 				loadCSS("lib/bootstrap/css/bootstrap.min.css");
@@ -377,7 +377,7 @@ This is where the map goes. I want to make a map with layers that can be turned 
 		<!-- Loading indicator -->
 		<div id="loadingOverlay"></div>
 		<div id="loadingIndicator" class="loadingIndicator">
-			<img src="resources/icons/loading-light.gif" />
+			<img src="../resources/icons/loading-light.gif" />
 		</div>
 		<div id="loadingMessage" aria-hidden="true"></div>
 		
@@ -591,7 +591,7 @@ This is where the map goes. I want to make a map with layers that can be turned 
 			</div>
 			<div class="modal-footer">
 				<span class="error"></span>
-				<span class="success"></span><img src="resources/icons/loader-upload.gif" class="addSpinner" />
+				<span class="success"></span><img src="../resources/icons/loader-upload.gif" class="addSpinner" />
     			<button class="btnSave btn btn-primary"></button>
 				<button class="btnClose btn" data-dismiss="modal" aria-hidden="true"></button>
 			</div>
@@ -1148,7 +1148,7 @@ This is where the map goes. I want to make a map with layers that can be turned 
 		
 		<script type="text/javascript">
 			loadJS('//js.arcgis.com/3.18/init.js', true);
-			loadJS('app/maptour-config.js');
+			loadJS('/../js/maptour-config.js');
 			
 			function getUrlVar(name)
 			{
@@ -1167,9 +1167,9 @@ This is where the map goes. I want to make a map with layers that can be turned 
 			
 			if( isProduction ) {
 				if( getUrlVar('edit') || getUrlVar('fromScratch') || getUrlVar('fromscratch') || getUrlVar('fromGallery') )
-					loadJS('app/maptour-builder-min.js');
+					loadJS('js/maptour-builder-min.js');
 				else
-					loadJS('app/maptour-viewer-min.js');
+					loadJS('/../js/maptour-viewer-min.js');
 			}
 			else {
 				loadJS('lib/_jquery.1.9.1.min.js');
@@ -1220,8 +1220,8 @@ This is where the map goes. I want to make a map with layers that can be turned 
 			else {
 			 	dojo.addOnLoad(function() {
 					require([
-							"dojo/i18n!./resources/nls/template.js?v=" + version, 
-							"storymaps/ui/loadingIndicator/LoadingIndicator", 
+							"dojo/i18n!./../resources/nls/template.js?v=" + version, 
+							"/../storymaps/ui/loadingIndicator/LoadingIndicator", 
 							"esri/urlUtils", 
 							"dojo/domReady!", 
 							"dojo/ready"
