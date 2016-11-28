@@ -1,10 +1,9 @@
 # Site Settings
-title: 'Christchurch Street Art'
-description: 'Watch this Space'
+title: 'StArtChch'
+description: 'Your comprehensive guide to Christchurch street art'
 url: 'https://elpinguinodev.github.io' # the base hostname & protocol for your site
-footer_text: 'Watch this Space'
+footer_text: 'StArtChch'
 
 # Admin Settings
 admin_name: 'elpinguino'
-admin_email: 'watchthisspacechristchurch@gmail.com'
-
+admin_email: 'StArtChch@gmail.com'
